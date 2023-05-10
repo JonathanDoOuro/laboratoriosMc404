@@ -17,7 +17,7 @@ main:
         lw a0, s0, 0
         #soma 1 no valor
         addi a0, a0, 1
-        #guarda o novo falor no vetor
+        #guarda o novo valor no vetor
         sw a0, s0, 0
         addi t0, zero, 1
         ecall
